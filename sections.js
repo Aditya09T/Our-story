@@ -23,7 +23,7 @@ const SECTIONS = {
       "We helped each other through projects, practicals, and board exam stress — becoming each other's biggest support.",
       "Those small everyday moments formed the foundation of our bond, memories we replay often."
     ],
-    photosForSlideshow: ["10.jpg","11.jpg","12.jpg","15.jpg","16.jpg","9.jpg"],
+    photosForSlideshow: ["9.jpg","10.jpg","11.jpg","12.jpg","15.jpg","16.jpg"],
     photosInline: ["9.jpg","11.jpg"],
     videos: []
   },
@@ -35,12 +35,9 @@ const SECTIONS = {
       "These photos capture small, real moments: quiet conversations, silly selfies, short trips and everyday smiles.",
       "Every picture here has a story; every video keeps a moment alive."
     ],
-    photosForSlideshow: ["13.jpg","14.jpg","7.jpg","8.jpg"],
+    photosForSlideshow: ["7.jpg","8.jpg","13.jpg","14.jpg"],
     photosInline: ["7.jpg","13.jpg"],
     videos: ["a4.mp4","a5.mp4"]
   }
 
 };
-
-
-
