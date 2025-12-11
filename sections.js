@@ -1,17 +1,17 @@
-// FINAL — filenames must match exactly (lowercase)
+// FINAL — filenames must match exactly (lowercase, no spaces)
 const SECTIONS = {
 
   proposal: {
     title: "Our Proposal 💍",
     meta: "6 March 2022 — 10:30 AM",
     storyParts: [
-      "On 6th March 2022 at 10:30 AM, during a truth-or-dare game with friends, Aditya was nudged to confess. He leaned close to Taniya and whispered, \"I love you.\"",
-      "Her friends pushed her to reply. She whispered back, \"I love you.\" That moment changed everything.",
-      "They met in Class 8, grew closer in Class 9, and became partners in Class 10 — supporting each other through study and life.",
-      "They completed Class 12 in March 2024 and continued to build their dreams together."
+      "On 6th March 2022 at 10:30 AM, during a truth-or-dare game with friends, Aditya whispered to Taniya, \"I love you.\"",
+      "Her friends nudged her to reply — she whispered back, \"I love you.\" From that moment, everything changed.",
+      "They met in Class 8, grew close in Class 9, and officially became partners in Class 10. Together they faced exams, projects and late-night studies.",
+      "School ended in March 2024, but their journey continued — college, dreams, and holding each other's hands through it all."
     ],
-    photosForSlideshow: ["1.jpg","2.jpg","3.jpg","4.jpg","5.jpg","6.jpg"],
-    photosInline: ["2.jpg","4.jpg"],
+    photosForSlideshow: ["proposal1.jpg","proposal2.jpg","proposal3.jpg","proposal4.jpg","proposal5.jpg","proposal6.jpg"],
+    photosInline: ["proposal1.jpg","proposal3.jpg"],
     videos: []
   },
 
@@ -19,25 +19,25 @@ const SECTIONS = {
     title: "School Life 🎓",
     meta: "Class 9 → Class 12 — Science Stream",
     storyParts: [
-      "School was the heartbeat of our story — shared notes, lunchboxes, lab experiments, and late-night revisions.",
-      "We helped each other through projects, practicals, and board exam stress — becoming each other's biggest support.",
-      "Those small everyday moments formed the foundation of our bond, memories we replay often."
+      "School was where their friendship turned into a bond: shared notes, tiffins, lab experiments and endless revisions.",
+      "They supported each other through practicals, mocks, and the pressure of board exams — always by one another's side.",
+      "Those years created the small memories that now shine the brightest."
     ],
-    photosForSlideshow: ["9.jpg","10.jpg","11.jpg","12.jpg","15.jpg","16.jpg"],
-    photosInline: ["9.jpg","11.jpg"],
+    photosForSlideshow: ["school1.jpg","school2.jpg","school3.jpg","school4.jpg","school5.jpg","school6.jpg"],
+    photosInline: ["school2.jpg","school4.jpg"],
     videos: []
   },
 
   memories: {
     title: "Memories ❤️",
-    meta: "Random days & priceless moments",
+    meta: "Little moments, big feelings",
     storyParts: [
-      "These photos capture small, real moments: quiet conversations, silly selfies, short trips and everyday smiles.",
-      "Every picture here has a story; every video keeps a moment alive."
+      "Small outings, silly selfies, quiet conversations and sudden trips — these little moments became the story of us.",
+      "Every picture and clip here holds a memory that we can return to whenever we want to smile."
     ],
-    photosForSlideshow: ["7.jpg","8.jpg","13.jpg","14.jpg"],
-    photosInline: ["7.jpg","13.jpg"],
-    videos: ["a4.mp4","a5.mp4"]
+    photosForSlideshow: ["memory1.jpg","memory2.jpg","memory3.jpg","memory4.jpg"],
+    photosInline: ["memory1.jpg","memory3.jpg"],
+    videos: ["memory1.mp4","memory2.mp4"]
   }
 
 };
