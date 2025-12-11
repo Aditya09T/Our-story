@@ -37,9 +37,10 @@ const SECTIONS = {
     ],
     photosForSlideshow: ["13.jpg","14.jpg","7.jpg","8.jpg"],
     photosInline: ["7.jpg","13.jpg"],
-    videos: ["a4.mp4"]
+    videos: ["a4.mp4","a5.mp4"]
   }
 
 };
+
 
 
