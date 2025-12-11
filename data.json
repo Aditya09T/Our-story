@@ -1,28 +1,37 @@
 {
-"events": [
-{
-"title": "First Proposal ❤️",
-"date": "3 March 2022",
-"desc": "Puchu proposed Golu at 10:30 AM."
-},
-{
-"title": "Class 12 Together 📚",
-"date": "2024",
-"desc": "Science stream, same school."
-},
-{
-"title": "Long Distance Begins 💕",
-"date": "2024",
-"desc": "ICFAI & NFSU but hearts forever linked."
-}
-],
+  "proposal": [
+    {
+      "title": "First Proposal ❤️",
+      "date": "3 March 2022 - 10:30 AM (Thursday)",
+      "story": "On 3rd March 2022 at 10:30 AM on a Thursday, Puchu (Aditya) proposed to Golu (Taniya) by whispering 'I love you' while their friends forced them during a truth and dare game. Later, her friends encouraged Taniya to reply — she whispered back 'I love you'. From that day their journey together began."
+    }
+  ],
 
+  "proposal_photos": [ ["first pic.jpg"] ],
+  "proposal_videos": [],
 
-"photos": ["first pic.jpg", "school pic 1.jpg", "school pic 2.jpg"],
+  "school": [
+    {
+      "title": "Class 11–12: Same Stream 🎓",
+      "date": "2019 - 2024",
+      "story": "We studied together from class 8 but became close in class 9. After class 10 boards (March), we joined Bishalgarh English Medium HS School for 11-12 in Science stream. We helped each other through studies, exams and made endless memories."
+    }
+  ],
+  "school_photos": [ ["school pic.jpg","school pic 2.jpg"] ],
+  "school_videos": [],
 
+  "memories": [
+    {
+      "title":"Home & Calls ❤️",
+      "date":"Random moments",
+      "story":"We shared video calls, late-night talks, silly selfies and study sessions — each small memory kept us close despite distance."
+    }
+  ],
+  "memories_photos": [ ["first pic.jpg"] ],
+  "memories_videos": [],
 
-"videos": ["video1.mp4", "video2.mp4"],
-
-
-"journey": "From school days to long distance — every moment built our unbreakable bond. No matter the distance, our hearts stayed together, always beating for each other."
+  "journey": {
+    "long": "From a whisper in a game to choosing the same school and supporting each other through exams and college decisions. Aditya took a year to prepare for JEE 2025, then joined NFSU Tripura in CSE (Cyber Security) in 2025, while Taniya joined ICFAI University Tripura for B.Sc Chemistry in 2024. Today they continue growing together — helping and cheering each other through every challenge.",
+    "pictures": ["first pic.jpg","school pic.jpg","school pic 2.jpg"]
+  }
 }
