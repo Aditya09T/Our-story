@@ -1,51 +1,75 @@
-body{
-  font-family: Arial;
-  background: linear-gradient(#ffe6f0,#fff);
-  text-align:center;
+body {
+.glass {
+background: rgba(255, 255, 255, 0.3);
+backdrop-filter: blur(10px);
+box-shadow: 0 0 20px rgba(255, 0, 100, 0.2);
 }
 
-.hidden{display:none;}
 
-#login{
-  margin-top:30vh;
-}
-
-input{
-  padding:10px;
-  width:200px;
-  margin:10px;
+input {
+padding: 12px;
+width: 80%;
+margin: 10px 0;
+border-radius: 8px;
+border: none;
 }
 
-button{
-  padding:10px 20px;
-  background:#ff5c8a;
-  color:white;
-  border:none;
-  border-radius:5px;
+
+button {
+padding: 12px 20px;
+background: #ff4d88;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+transition: 0.3s;
 }
 
-#timeline{
-  margin:30px;
-}
-.event{
-  background:white;
-  margin:15px auto;
-  padding:15px;
-  max-width:500px;
-  border-radius:10px;
-  /* Add this to style.css */
-.event-img {
-  width: 100%;       /* Makes image fit inside the white box */
-  max-width: 400px;  /* Prevents it from getting too huge */
-  border-radius: 8px; /* Smooth corners */
-  margin-bottom: 10px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+button:hover {
+background: #ff1a66;
 }
 
-.date {
-  color: #ff5c8a;
-  font-weight: bold;
-  font-size: 0.9em;
-}
+
+/* Menu */
+.menu {
+display: flex;
+justify-content: center;
+gap: 15px;
+margin: 20px 0;
 }
 
+
+.section {
+max-width: 700px;
+margin: auto;
+padding: 20px;
+background: rgba(255, 255, 255, 0.45);
+border-radius: 15px;
+box-shadow: 0 0 15px rgba(255, 0, 100, 0.2);
+}
+
+
+/* Memories */
+.event {
+background: white;
+margin: 15px 0;
+padding: 15px;
+border-radius: 10px;
+box-shadow: 0 0 10px #ffb3c6;
+}
+
+
+/* Photo & video grid */
+.grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+gap: 15px;
+}
+
+
+.grid img, .grid video {
+width: 100%;
+border-radius: 12px;
+box-shadow: 0 0 10px rgba(255, 0, 120, 0.3);
+}
