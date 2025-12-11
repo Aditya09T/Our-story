@@ -1,0 +1,19 @@
+{
+  "events":[
+    {
+      "title":"First Proposal ❤️",
+      "date":"3 March 2022",
+      "desc":"Puchu proposed Golu at 10:30 AM"
+    },
+    {
+      "title":"Class 12 Together 📚",
+      "date":"2024",
+      "desc":"Science stream, same school"
+    },
+    {
+      "title":"Long Distance Begins 💕",
+      "date":"2024",
+      "desc":"ICFAI & NFSU but hearts together"
+    }
+  ]
+}
