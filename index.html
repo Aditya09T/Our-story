@@ -1,65 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Aditya ❤️ Taniya</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aditya ❤️ Taniya</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <div id="preloader" class="preloader hidden"></div>
 
+  <div id="login" class="center">
+    <div class="login-box">
+      <h2>💖 Private Space</h2>
+      <input type="password" id="password" placeholder="Enter Password" />
+      <div class="row">
+        <button id="enterBtn">Enter</button>
+      </div>
+      <p id="error"></p>
+    </div>
+  </div>
 
-<div class="hearts-bg"></div>
+  <div id="content" class="hidden">
+    <header class="site-header">
+      <h1 class="brand">Aditya ❤️ Taniya</h1>
+      <p class="sub">Our beautiful journey — together forever</p>
+    </header>
 
+    <main class="main-wrap">
+      <section class="hero">
+        <div class="buttons">
+          <button class="big-btn" data-target="proposal">💍 Story: Our Proposal</button>
+          <button class="big-btn" data-target="school">🎓 School Life</button>
+          <button class="big-btn" data-target="memories">✨ Memories</button>
+        </div>
+      </section>
 
-<div id="login" class="center-box glass">
-<h2>💖 Private Space</h2>
-<input type="password" id="password" placeholder="Enter Password">
-<button onclick="check()">Enter</button>
-<p id="error"></p>
-</div>
+      <nav class="section-tabs">
+        <button class="tab-btn active" data-tab="story">Story</button>
+        <button class="tab-btn" data-tab="photos">Photos</button>
+        <button class="tab-btn" data-tab="videos">Videos</button>
+      </nav>
 
+      <section id="display-area" class="display-area">
+        <!-- content rendered here -->
+      </section>
+    </main>
+  </div>
 
-<div id="content" class="hidden fade-in">
-<h1 class="title">Aditya ❤️ Taniya</h1>
-<h3>Our Beautiful Journey</h3>
-
-
-<div class="menu">
-<button onclick="openSection('memories')">📜 Memories</button>
-<button onclick="openSection('photos')">📸 Photos</button>
-<button onclick="openSection('videos')">🎬 Videos</button>
-<button onclick="openSection('journey')">💞 Love Journey</button>
-</div>
-
-
-<!-- Sections -->
-
-
-<div id="memories" class="section hidden"></div>
-
-
-<div id="photos" class="section hidden">
-<h2>📸 Our Photos</h2>
-<div id="photo-grid" class="grid"></div>
-</div>
-
-
-<div id="videos" class="section hidden">
-<h2>🎬 Our Videos</h2>
-<div id="video-grid" class="grid"></div>
-</div>
-
-
-<div id="journey" class="section hidden">
-<h2>💞 Our Love Story</h2>
-<p id="journey-text"></p>
-</div>
-
-
-</div>
-
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
