@@ -2,24 +2,63 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aditya ❤️ Taniya</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div id="login">
-  <h2>💖 Private Space</h2>
-  <input type="password" id="password" placeholder="Enter Password">
-  <button onclick="check()">Enter</button>
-  <p id="error"></p>
+
+<div class="hearts-bg"></div>
+
+
+<div id="login" class="center-box glass">
+<h2>💖 Private Space</h2>
+<input type="password" id="password" placeholder="Enter Password">
+<button onclick="check()">Enter</button>
+<p id="error"></p>
 </div>
 
-<div id="content" class="hidden">
-  <h1>Aditya ❤️ Taniya</h1>
-  <h3>5 Years Together — Forever to Go</h3>
-  <div id="special"></div>
-  <div id="timeline"></div>
+
+<div id="content" class="hidden fade-in">
+<h1 class="title">Aditya ❤️ Taniya</h1>
+<h3>Our Beautiful Journey</h3>
+
+
+<div class="menu">
+<button onclick="openSection('memories')">📜 Memories</button>
+<button onclick="openSection('photos')">📸 Photos</button>
+<button onclick="openSection('videos')">🎬 Videos</button>
+<button onclick="openSection('journey')">💞 Love Journey</button>
 </div>
+
+
+<!-- Sections -->
+
+
+<div id="memories" class="section hidden"></div>
+
+
+<div id="photos" class="section hidden">
+<h2>📸 Our Photos</h2>
+<div id="photo-grid" class="grid"></div>
+</div>
+
+
+<div id="videos" class="section hidden">
+<h2>🎬 Our Videos</h2>
+<div id="video-grid" class="grid"></div>
+</div>
+
+
+<div id="journey" class="section hidden">
+<h2>💞 Our Love Story</h2>
+<p id="journey-text"></p>
+</div>
+
+
+</div>
+
 
 <script src="script.js"></script>
 </body>
