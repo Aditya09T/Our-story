@@ -8,26 +8,33 @@
 </head>
 <body>
 
-  <!-- PASSWORD GATE -->
-  <div id="gate" class="gate">
+  <!-- Page loader -->
+  <div id="loader" class="loader">
+    <div class="heart"></div>
+  </div>
+
+  <!-- Gate -->
+  <div id="gate" class="gate hidden">
     <div class="gate-card">
       <h2>💖 Private Space</h2>
       <p>Enter password to open our story</p>
       <input id="pwInput" type="password" placeholder="Password" />
+      <div style="height:10px"></div>
       <button id="pwBtn">Enter</button>
-      <p id="pwError" class="error" aria-live="polite"></p>
+      <p id="pwError" class="error"></p>
     </div>
   </div>
 
-  <!-- APP -->
+  <!-- App -->
   <main id="app" class="app hidden">
     <header class="header">
       <h1 class="title">Aditya ❤️ Taniya</h1>
       <p class="subtitle">Five years and counting — our little universe</p>
     </header>
 
+    <div id="theme-effects" class="theme-effects"></div>
+
     <nav class="nav" id="nav">
-      <!-- buttons created by JS if you want, keep these for default -->
       <button class="nav-btn" data-key="proposal">💍 Our Proposal</button>
       <button class="nav-btn" data-key="school">🎓 School Life</button>
       <button class="nav-btn" data-key="memories">❤️ Memories</button>
@@ -41,14 +48,14 @@
 
     <footer class="footer">Private link • For Golu & Puchu only</footer>
 
-    <!-- slideshow modal -->
-    <div id="slideshowModal" class="modal hidden">
+    <!-- slideshow modal (large view) -->
+    <div id="slideshowModal" class="modal hidden" aria-hidden="true">
       <div class="modal-inner">
-        <button id="closeModal" class="modal-close">✕</button>
+        <button id="closeModal" class="modal-close" title="Close">✕</button>
         <div class="slide-wrap">
-          <button id="prevSlide" class="slide-btn">‹</button>
-          <img id="slideImg" src="" alt="slide" />
-          <button id="nextSlide" class="slide-btn">›</button>
+          <button id="prevSlide" class="slide-btn" aria-label="Previous">‹</button>
+          <img id="slideImg" src="" alt="slide image" />
+          <button id="nextSlide" class="slide-btn" aria-label="Next">›</button>
         </div>
         <div class="slide-controls">
           <button id="playPause" class="small">Play</button>
@@ -56,6 +63,7 @@
         </div>
       </div>
     </div>
+
   </main>
 
 <script src="sections.js"></script>
