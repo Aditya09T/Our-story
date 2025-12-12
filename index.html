@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="UTF-8">
   <title>Aditya ❤️ Taniya — Our Story</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Loader -->
-  <div id="loader">
-    <div class="heart">💗</div>
+  <!-- ======================
+        PAGE LOADER
+  ======================= -->
+  <div id="loader" class="loader">
+      <div class="heart">❤️</div>
   </div>
 
-  <!-- Login Screen -->
+  <!-- ======================
+        LOGIN SCREEN
+  ======================= -->
   <div id="login" class="center hidden">
-    <div class="login-box">
-      <h2>💖 Private Space</h2>
-      <input type="password" id="password" placeholder="Enter Password" />
-      <button onclick="checkPassword()">Enter</button>
-      <p id="error"></p>
-    </div>
+      <div class="login-box">
+        <h2>💖 Private Space</h2>
+        <input type="password" id="password" placeholder="Enter Password">
+        <button onclick="checkPassword()">Open</button>
+        <p id="error"></p>
+      </div>
   </div>
 
-  <!-- Main App -->
+  <!-- ======================
+        MAIN APP
+  ======================= -->
   <main id="app" class="hidden">
-    <h1 class="title">Aditya ❤️ Taniya</h1>
-    <p class="subtitle">Our Beautiful Journey</p>
 
-    <div class="sections">
-      <button onclick="openSection('proposal')">💍 Proposal</button>
-      <button onclick="openSection('school')">🎓 School Life</button>
-      <button onclick="openSection('memories')">❤️ Memories</button>
-    </div>
+      <!-- Auto background slideshow -->
+      <div id="home-bg"></div>
 
-    <div id="display-area"></div>
+      <h1 class="title">Aditya ❤️ Taniya</h1>
+      <p class="subtitle">Our Beautiful Journey Together</p>
+
+      <div class="buttons">
+        <div class="section-btn" onclick="openSection('proposal')">💍 Proposal</div>
+        <div class="section-btn" onclick="openSection('school')">🎓 School Life</div>
+        <div class="section-btn" onclick="openSection('memories')">❤️ Memories</div>
+      </div>
+
+      <div id="display-area"></div>
+
   </main>
 
   <script src="sections.js"></script>
   <script src="script.js"></script>
-
 </body>
 </html>
