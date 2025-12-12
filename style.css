@@ -2,7 +2,8 @@ body {
     margin: 0;
     text-align: center;
     font-family: Arial;
-    background: linear-gradient(to bottom, #ffe6f2, #ffcce6);
+    /* Updated Background Gradient */
+    background: linear-gradient(to bottom, #fde4e1, #ffc8d9); 
 }
 
 .hidden { display: none; }
@@ -36,14 +37,19 @@ body {
     border-radius: 12px;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid #ffc8d9; /* Added soft border */
 }
 .login-box input {
     width: 90%;
     padding: 10px;
+    border: 1px solid #ffc8d9;
+    border-radius: 4px;
 }
 .login-box button {
     margin-top: 10px;
-    background: pink;
+    background: #ffc8d9; /* Light pink background */
+    color: #e3345f; /* Rose pink text */
+    font-weight: bold;
     border: none;
     padding: 10px 20px;
     border-radius: 8px;
@@ -52,20 +58,62 @@ body {
 /* Main */
 .title {
     margin-top: 30px;
-    color: #d63384;
+    color: #e3345f; /* Deep Rose Pink */
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 .menu button {
     margin: 10px;
     padding: 10px 20px;
-    background: hotpink;
+    background: #e3345f; /* Match the deep rose pink */
     border: none;
     border-radius: 8px;
     color: white;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+.menu button:hover {
+    background: #c92f54; /* Slightly darker on hover */
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
+/* Countdown Style */
+.countdown {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #e3345f; /* Deep rose color */
+    margin-bottom: 25px;
+    padding: 10px;
+    background: #fff0f5; /* Very light pink background */
+    border-radius: 8px;
+    display: inline-block; /* Makes background fit content */
+}
+
+/* Display Area for Images/Video */
 #display-area img, video {
     width: 90%;
     max-width: 500px;
     display: block;
     margin: 10px auto;
+    border: 5px solid white;
+    box-shadow: 0 4px 12px rgba(227, 52, 95, 0.2); 
+    border-radius: 10px;
+}
+
+/* Responsive YouTube Video Container */
+.video-container {
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    margin: 10px auto 30px auto;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
 }
