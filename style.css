@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(to bottom, #ffe6f2, #ffcce6);
+}
+
+.hidden { display: none; }
+
+/* Loader */
+#loader {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heart {
+    font-size: 60px;
+    animation: beat 0.7s infinite alternate;
+}
+@keyframes beat {
+    from { transform: scale(1); }
+    to { transform: scale(1.3); }
+}
+
+/* Login */
+.login-box {
+    margin-top: 20vh;
+    background: #fff;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 15px #0003;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-box input {
+    width: 90%;
+    padding: 10px;
+}
+.login-box button {
+    margin-top: 10px;
+    background: pink;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+
+/* Main */
+.title {
+    margin-top: 30px;
+    color: #d63384;
+}
+.menu button {
+    margin: 10px;
+    padding: 10px 20px;
+    background: hotpink;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+#display-area img, video {
+    width: 90%;
+    max-width: 500px;
+    display: block;
+    margin: 10px auto;
+}
